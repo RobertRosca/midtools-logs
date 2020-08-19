@@ -1,0 +1,768 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:36164'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:45891'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:39218'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:37287'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:33151'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:44888'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:43106'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.145:46528'
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:45351
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:45351
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:40657
+distributed.worker - INFO -          dashboard at:        10.255.34.145:44743
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:40657
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        10.255.34.145:36819
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-v4q8fxn4
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-lyrk0jee
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:33011
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:33011
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:42600
+distributed.worker - INFO -          dashboard at:        10.255.34.145:45949
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:34076
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:42600
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:34076
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        10.255.34.145:45652
+distributed.worker - INFO -          dashboard at:        10.255.34.145:43131
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:37134
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:35662
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:37134
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        10.255.34.145:43751
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:35662
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.145:46424
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.145:46424
+distributed.worker - INFO -          dashboard at:        10.255.34.145:36602
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        10.255.34.145:36228
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-_6cr7mb_
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-jwgdwy77
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-hr1a7jfr
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-axvdpue5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO -                Memory:                   96.00 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-k21yeazg
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-lecpa4n3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:35106
+Task exception was never retrieved
+future: <Task finished coro=<connect.<locals>._() done, defined at /gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py:279> exception=CommClosedError()>
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 288, in _
+    handshake = await asyncio.wait_for(comm.read(), 1)
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/exfel/data/scratch/roscar/work/midtools/midtools/.venv/lib64/python3.6/site-packages/distributed/comm/core.py", line 295, in _
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:35106
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+slurmstepd: error: *** JOB 5318294 ON max-exfl219 CANCELLED AT 2020-08-19T17:08:38 ***
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:44888'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:36164'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:46528'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:43106'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:37287'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:45891'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:33151'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.145:39218'
+distributed.nanny - INFO - Worker process 207921 was killed by signal 15
+distributed.nanny - INFO - Worker process 207923 was killed by signal 15

@@ -1,0 +1,176 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.179:45126'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.179:34257'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.179:36233'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.255.34.179:40307'
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:36282
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:36282
+distributed.worker - INFO -          dashboard at:        10.255.34.179:34161
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:43015
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:37087
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:35614
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:43015
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:37087
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:35614
+distributed.worker - INFO -          dashboard at:        10.255.34.179:38955
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO -          dashboard at:        10.255.34.179:46269
+distributed.worker - INFO -          dashboard at:        10.255.34.179:33728
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-ihwl8rdz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-crmo5739
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-h6xusa0j
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-yzm109ug
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:35614
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:37087
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:36282
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:43015
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:41088
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:41088
+distributed.worker - INFO -          dashboard at:        10.255.34.179:39936
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-a8ite89h
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:46160
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:46160
+distributed.worker - INFO -          dashboard at:        10.255.34.179:43978
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-37_efjam
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:40961
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:40961
+distributed.worker - INFO -          dashboard at:        10.255.34.179:35932
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-1r2dg1u8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:35144
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:35144
+distributed.worker - INFO -          dashboard at:        10.255.34.179:40157
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-w6wk8k2g
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:35144
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:40961
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:41088
+distributed.worker - INFO - Stopping worker at tcp://10.255.34.179:46160
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - WARNING - Restarting worker
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:37533
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:37533
+distributed.worker - INFO -          dashboard at:        10.255.34.179:46673
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-nxc23vuo
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:35729
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:35729
+distributed.worker - INFO -          dashboard at:        10.255.34.179:38774
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-ikzqv2mb
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:43137
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:43137
+distributed.worker - INFO -          dashboard at:        10.255.34.179:40954
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-9k6lb0f6
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://10.255.34.179:33803
+distributed.worker - INFO -          Listening to:  tcp://10.255.34.179:33803
+distributed.worker - INFO -          dashboard at:        10.255.34.179:34861
+distributed.worker - INFO - Waiting to connect to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  192.00 GB
+distributed.worker - INFO -       Local Directory: /scratch/dask-worker-space/worker-l49q2kzq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.255.32.50:45827
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+slurmstepd: error: *** JOB 5318278 ON max-exfl253 CANCELLED AT 2020-08-19T17:03:14 ***
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.179:40307'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.179:34257'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.179:36233'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.255.34.179:45126'
+distributed.nanny - INFO - Worker process 97959 was killed by signal 15
+distributed.nanny - INFO - Worker process 97956 was killed by signal 15
+distributed.nanny - INFO - Worker process 97953 was killed by signal 15
+distributed.nanny - INFO - Worker process 97950 was killed by signal 15
